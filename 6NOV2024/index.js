@@ -8,7 +8,7 @@ bodyELement.appendChild(headingTwo); // append the child with parent with help o
 headingTwo.style.color = "orange";
 headingTwo.style.fontFamily = "sans-serif";
 const boldELement = document.createElement('b');
-boldELement.innerHTML = " This is Bold Text";
+boldELement.innerHTML = "This is Bold Text";
 const rootElement = document.getElementById('root');
 rootElement.appendChild(boldELement);
 
