@@ -33,7 +33,11 @@
 
 const headingThree = React.createElement('h3',{id:"headingThree"},
     [
-        React.createElement('b',{id:"boldOne"},"BoldOne"),
+        React.createElement('b',{id:"boldOne"},
+        [
+            React.createElement('p',{id:"insidebold"},"insidebold")
+        ]),
+        
         React.createElement('p',{id:"para"},"Paragraph One")
     ]
 )
